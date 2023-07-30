@@ -1,7 +1,5 @@
 # Cleaning Service Booking System
 
-![Cleaning Service](cleaning_service.png)
-
 ## Table of Contents
 
 - [Description](#description)
@@ -29,7 +27,6 @@ This project is a simple cleaning service booking system developed using Python 
 
 - **Cleaner Screen**: Cleaners will have access to the following options:
   - Check Your Current Bookings: Cleaners can view the current bookings made for their cleaning services. Details displayed include the customer's name, phone number, and the date and time for cleaning.
-  - Booking History: Cleaners can check their past booking history, including the details of the customers who have booked their cleaning services in the past.
   - About Us: Provides information about the cleaning service company.
   - Logout: Allows cleaners to log out and return to the home screen.
 
@@ -43,15 +40,14 @@ This project is a simple cleaning service booking system developed using Python 
 
 1. Clone this repository to your local machine.
 2. Install the required dependencies mentioned in the Requirements section.
-3. Make sure you have the `cleaning_service.db` database file with the necessary tables (Cleaners, Customers, Bookings) set up for storing user and booking data.
-4. Run the main application file `cleaning_service_app.py` using Python.
+3. Make sure you have the `book_cleaning_service.db` database file with the necessary tables (Cleaners, Customers, Bookings) set up for storing user and booking data. This file will be auto generated once you run the code
+4. Run the main application file `app.py` using Python.
 5. The application window will open, allowing you to use the cleaning service booking system.
 
 ## Database Schema
 
 The database used for this project contains the following tables:
 
-- Cleaners: Stores information about registered cleaners, including their ID, name, and phone number.
 - Customers: Stores information about registered customers, including their ID, name, and phone number.
 - Bookings: Stores the booking details, including the customer ID, cleaner ID, and the date and time of the cleaning service.
 
